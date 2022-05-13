@@ -8,7 +8,7 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Dados do cartão"
