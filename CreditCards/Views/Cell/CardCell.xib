@@ -62,7 +62,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="containerView" destination="6kM-ko-66L" id="Q5U-s8-I3u"/>
+                <outlet property="containerView" destination="6kM-ko-66L" id="jPT-QD-0hg"/>
                 <outlet property="flagImageView" destination="LZY-h6-Sze" id="yg9-kr-Xyx"/>
                 <outlet property="holderLabel" destination="nNZ-Le-Jcb" id="ZEw-pP-jTh"/>
                 <outlet property="numberLabel" destination="4OB-oZ-Mo4" id="IKu-bn-H1P"/>
