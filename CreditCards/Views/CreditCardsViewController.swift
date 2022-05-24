@@ -29,13 +29,13 @@ class CreditCardsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Cards"
+        title = "Cartões"
         setup()
         setupNavigation()
     }
     
     func setupNavigation() {
-        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: nil, action: #selector(goToNewCard))
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(goToNewCard))
         navigationItem.rightBarButtonItem = addButton
     }
     
@@ -82,8 +82,4 @@ extension CreditCardsViewController: UITableViewDataSource {
         cell.setup(card: card)
         return cell
     }
-    
-//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        return 150
-//    }
 }
